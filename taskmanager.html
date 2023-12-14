@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Task Manager</h1>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Add Task</h2>
+      <form id="taskForm">
+        <input type="text" id="taskTitle" placeholder="Enter task title" required>
+        <input type="date" id="taskDeadline" required>
+        <button type="button" onclick="addTask()">Add Task</button>
+      </form>
+    </section>
+
+    <!-- Other sections for displaying tasks can be added here -->
+
+  </main>
+
+  <script src="taskmanager.js"></script>
+</body>
+</html>
